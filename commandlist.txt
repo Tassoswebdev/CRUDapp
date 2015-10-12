@@ -1,0 +1,34 @@
+
+
+laravel new gruntapplication
+/**
+Database Construction
+**/
+
+
+npm install
+npm install bower
+
+bower install jquery bootstrap --save
+bower install datatables --save
+/*
+make gulp file
+*/
+
+gulp crudetask
+gulp
+
+php artisan make:model --migration Emploee
+
+php artisan migrate
+
+php artisan make:controller EmploeeController
+
+php artisan make:request EmploeeCreateRequest
+
+php artisan make:job EmploeeFormFields
+
+
+php artisan db:seed
+
+
