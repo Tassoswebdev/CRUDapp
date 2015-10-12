@@ -45,11 +45,11 @@
       </div>
       <div class="modal-body">
      	 <ul class="list-group">
-    <li class="list-group-item">{{$emploee->name}}</li>
-    <li class="list-group-item">{{$emploee->address}}</li>
-    <li class="list-group-item">{{$emploee->salary}}</li>
-    <li class="list-group-item">{{$emploee->company}}</li>
-    <li class="list-group-item">{{$emploee->bio}}</li>
+    <li class="list-group-item"><h4>name</h4>    : {{$emploee->name}}</li>
+    <li class="list-group-item"><h4>address</h4> : {{$emploee->address}}</li>
+    <li class="list-group-item"><h4>salary</h4>  : {{$emploee->salary}}</li>
+    <li class="list-group-item"><h4>company</h4> : {{$emploee->company}}</li>
+    <li class="list-group-item"><h4>bio</h4>     : {{$emploee->bio}}</li>
   </ul>
       </div>
       <div class="modal-footer">
